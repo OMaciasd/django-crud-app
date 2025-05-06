@@ -1,0 +1,35 @@
+/* static/css/styles.css */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ color: #333;
+}
+
+header {
+ background-color: #333;
+ color: white;
+ padding: 10px 0;
+ text-align: center;
+}
+
+h1 {
+ font-size: 2em;
+}
+
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+button {
+ background-color: #007bff;
+ color: white;
+ padding: 10px 15px;
+ border: none;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #0056b3;
+}

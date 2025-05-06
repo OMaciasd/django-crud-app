@@ -1,0 +1,14 @@
+DEBUG=False
+SECRET_KEY=tu_clave_secreta_segura
+ALLOWED_HOSTS=*
+GOOGLE_CLOUD_PROJECT=your_project_id
+
+DB_NAME=nombre_de_tu_base
+DB_USER=postgres
+DB_PASSWORD=$pwd
+DB_HOST=/cloudsql/$GOOGLE_CLOUD_PROJECT:us-central1:tu_instancia
+DB_PORT=5432
+
+DATABASE_URL=postgres://$DB_USER:$DB_PASSWORD@$DB_HOST:$DB_PORT/$DB_NAME
+
+DJANGO_SETTINGS_MODULE=my_project.settings
